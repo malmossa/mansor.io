@@ -1,0 +1,32 @@
+:root {
+  --first: #164a41;
+  --second: #4d774e;
+  --third: #9dcbbd;
+  --fourth: #f1b24a;
+  --fifth: #fff;
+}
+
+/* Top Navigation */
+.topNav {
+  background-color: var(--first);
+}
+.topNav a {
+  color: var(--fifth);
+}
+
+.topNav a:hover {
+  color: var(--fourth);
+}
+
+/* Footer */
+.mainFooter {
+  background-color: var(--first);
+}
+
+.mainFooter i {
+  color: var(--fifth);
+}
+
+.mainFooter i:hover {
+  color: var(--fourth);
+}

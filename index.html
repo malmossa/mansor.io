@@ -24,86 +24,43 @@
     />
     <title>Mansor Almossa | Home</title>
   </head>
-  <body class="d-flex flex-column h-100">
+  <body>
     <!-- Top Navigation -->
-    <nav class="navbar navbar-expand-lg topNav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Mansor Almossa</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-md sticky-top px-2 topNav">
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo.png" alt="Logo" class="align-top" height="40" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link current" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
-
-    <!-- Main Content -->
-    <main>
-      <div class="vid-bg">
-        <video loop muted autoplay class="vid-bg_video">
-          <source src="/img/hero_vid.mp4" type="video/mp4" />
-        </video>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer
-      class="
-        d-flex
-        fixed-bottom
-        justify-content-between
-        align-items-center
-        py-2
-        px-3
-        mt-auto
-        border-top
-        mainFooter
-      "
-    >
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="text-muted">&copy;2021 Mansor Almossa</span>
-      </div>
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a href="#" target="_blankk"><i class="fab fa-linkedin fa-2x"></i></a>
-        </li>
-        <li class="ms-3">
-          <a href="#" target="_blankk"><i class="fab fa-github fa-2x"></i></a>
-        </li>
-        <li class="ms-3">
-          <a href="#" target="_blankk"><i class="fab fa-twitter fa-2x"></i></a>
-        </li>
-      </ul>
-    </footer>
-
-    <script src="./js/main.js"></script>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

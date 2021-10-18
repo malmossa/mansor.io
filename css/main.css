@@ -4,7 +4,7 @@
   --text: #fff;
 }
 
-.bBg {
+.body {
   background-color: #f2f2f2;
 }
 
@@ -27,4 +27,13 @@
 }
 .topNav span {
   color: var(--secondary);
+}
+
+/* Footer */
+.bFooter {
+  background-color: var(--primary);
+}
+
+.bFooter i:hover {
+  color: var(--text);
 }

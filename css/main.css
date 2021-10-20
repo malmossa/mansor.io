@@ -29,6 +29,16 @@
   color: var(--secondary);
 }
 
+/* Hero Section */
+.jumbotron {
+  color: var(--text);
+  background-image: url(/img/computer-programmer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 /* Footer */
 .bFooter {
   background-color: var(--primary);

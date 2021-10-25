@@ -285,7 +285,7 @@ h3.heading {
 
 /*--- Team Light Background Image --*/
 .fixed-light {
-  background-image: url("https://via.placeholder.com/1500x1002");
+  background-image: url(/img/portfolio_background_img.jpg);
   position: fixed;
   height: 100%;
   width: 100%;
@@ -321,7 +321,7 @@ h3.heading {
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
-  background: #1ebba3 !important;
+  background: #e6c300 !important;
 }
 ul.social {
   list-style: none;
@@ -334,7 +334,7 @@ ul.social li {
   padding-right: 0.8rem;
 }
 ul.social li a {
-  color: #1ebba3;
+  color: #e6c300;
   transition: all 0.2s ease;
 }
 ul.social li a:hover {

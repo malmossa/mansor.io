@@ -1,618 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mansor Almossa</title>
-    <link rel="shortcut icon" href="img/favicon.jpg" />
-    <!-- Bootstrap CSS https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <!-- Style.css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Plugins.css -->
-    <link rel="stylesheet" href="css/plugins.css" />
-    <!-- Google Fonts https://fonts.google.com/ -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Animate.css https://cdnjs.com/libraries/animate.css/
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
+	<!-- Style.css -->
+	<!-- Plugins.css -->
+	<!-- Google Fonts https://fonts.google.com/ -->
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
 		https://daneden.github.io/animate.css/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
-    />
-    <!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
 		http://owlcarousel2.github.io/OwlCarousel2/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbarResponsive">
-    <!-- Start Home Section -->
-    <div id="home">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md fixed-top">
-        <div class="container-fluid">
-          <a href="#home" class="navbar-brand"
-            ><img src="/img/logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarResponsive"
-          >
-            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
-          </button>
+</head>
+<body>
 
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto text-center">
-              <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a href="#skills" class="nav-link">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- End Navigation -->
+	<!-- Start Home Section -->
 
-      <!-- Start Landing Page Image -->
-      <div class="landing">
-        <div class="home-wrap">
-          <div class="home-inner"></div>
-        </div>
-      </div>
-      <!-- End Landing Page Image -->
-
-      <!-- Start Landing Page Caption -->
-      <div class="caption text-center text-light text-uppercase">
-        <h1
-          class="font-weight-bold os-animation"
-          data-animation="animate__animated animate__fadeInUp"
-          data-delay=".6s"
-        >
-          Hello I Am <span class="text-display">Mansor</span>
-        </h1>
-        <h3
-          class="os-animation"
-          data-animation="animate__animated animate__fadeInUp"
-          data-delay=".8s"
-        >
-          Full Stack Web Developer
-        </h3>
-        <a
-          href="#portfolio"
-          class="btn btn-outline-light btn-md rounded-3 os-animation"
-          data-animation="animate__animated animate__fadeInUp"
-          data-delay="1s"
-          >See my work</a
-        >
-      </div>
-      <!-- End Landing Page Caption -->
-
-      <!-- Start Bouncing Down Arrow -->
-      <a href="#features" class="down-arrow text-center">
-        <div class="arrow d-none d-md-block">
-          <i class="fas fa-angle-down"></i>
-        </div>
-      </a>
-      <!-- End Bouncing Down Arrow -->
-    </div>
-    <!-- End Home Section -->
-
-    <!-- Start Features Section -->
-    <div id="about" class="offset">
-      <!-- Start Theme Heading -->
-      <div class="row bg-light text-center py-4 justify-content-center">
-        <div
-          class="col-11 col-md-10 col-lg-9 os-animation"
-          data-animation="animate__animated animate__fadeInUp"
-        >
-          <h1>About Me</h1>
-          <p class="lead">
-            Hello there I am Mansor Almossa, a full-stack web developer who is
-            in love with computer programming. I am 100% punctual, cultural fit
-            and always learning.
-          </p>
-        </div>
-      </div>
-      <!-- End Theme Heading -->
+	<!-- End Home Section -->
 
 
-    <!-- End of Features Section -->
+	<!-- Start Features Section -->
 
-    <!-- Start Team Section -->
-    <div id="portfolio" class="offset">
-      <!-- Start Fixed BG IMG Light -->
-      <div class="fixed">
-        <div class="row light">
-          <div
-            class="col-12 os-animation"
-            data-animation="animate__animated animate__fadeInUp"
-          >
-            <h3 class="heading">Portfolio</h3>
-            <div class="heading-underline"></div>
-          </div>
+	<!-- End of Features Section -->
 
-          <div class="container">
-            <div
-              class="os-animation"
-              data-animation="animate__animated animate__fadeInUp"
-            >
-              <div id="team-carousel" class="owl-carousel owl-theme">
-                <div class="card">
-                  <img
-                    src="https://via.placeholder.com/761x602"
-                    alt=""
-                    class="card-img-top rounded-0"
-                  />
-                  <div class="card-body">
-                    <h4 class="font-weight-bold">Zero To Hundred</h4>
-                    <div class="border-bottom py-3 my-3">
-                      <h5 class="text-nuno">Technology</h5>
-                      <p>HTML5, CSS3, Bootstrap5, JavaScript</p>
-                    </div>
-                    <ul class="social">
-                      <li>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Card -->
 
-                <div class="card">
-                  <img
-                    src="https://via.placeholder.com/761x602"
-                    alt=""
-                    class="card-img-top rounded-0"
-                  />
-                  <div class="card-body">
-                    <h4 class="font-weight-bold">Jessica Miller</h4>
-                    <h5 class="text-nuno">President</h5>
-                    <p class="border-top border-bottom py-3 my-3">
-                      Jessica has over 10 years of experience in a technology
-                      role.
-                    </p>
-                    <ul class="social">
-                      <li>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Card -->
+	<!-- Start Portfolio Section -->
 
-                <div class="card">
-                  <img
-                    src="https://via.placeholder.com/761x602"
-                    alt=""
-                    class="card-img-top rounded-0"
-                  />
-                  <div class="card-body">
-                    <h4 class="font-weight-bold">Charles Davis</h4>
-                    <h5 class="text-nuno">Vice President</h5>
-                    <p class="border-top border-bottom py-3 my-3">
-                      Charles went to business school and worked his way up the
-                      ladder.
-                    </p>
-                    <ul class="social">
-                      <li>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Card -->
+	<!-- End of Portfolio Section -->
 
-                <div class="card">
-                  <img
-                    src="https://via.placeholder.com/761x602"
-                    alt=""
-                    class="card-img-top rounded-0"
-                  />
-                  <div class="card-body">
-                    <h4 class="font-weight-bold">Cindy Wilson</h4>
-                    <h5 class="text-nuno">CFO</h5>
-                    <p class="border-top border-bottom py-3 my-3">
-                      Cindy has an established financial operations background.
-                    </p>
-                    <ul class="social">
-                      <li>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Team Carousel -->
-            </div>
-            <!-- End Animation -->
-          </div>
-          <!-- End Container -->
-        </div>
-        <!-- End Row -->
 
-        <div class="fixed-wrap">
-          <div class="fixed-light"></div>
-        </div>
-      </div>
-      <!-- End Fixed BG IMG Light -->
-    </div>
-    <!-- End Team Section -->
+	<!-- Start Pricing Section -->
 
-    <!-- Start Skills Section -->
-    <div id="skills" class="offset">
-      <div class="jumbotron m-0 py-5">
-        <div class="container">
-          <div
-            class="col-12 os-animation"
-            data-animation="animate__animated animate__fadeInUp"
-          >
-            <h3 class="heading">Our Skills</h3>
-            <div class="heading-underline"></div>
-          </div>
+	<!-- End of Pricing Section -->
 
-          <div
-            class="row justify-content-center text-center os-animation"
-            data-animation="animate__animated animate__fadeInUp"
-          >
-            <div class="col-md-9 col-lg-12 col-xl-11">
-              <div class="row">
-                <div class="col-md-6 col-lg-3">
-                  <span class="fa-stack fa-3x">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-clock fa-stack-1x fa-inverse"></i>
-                  </span>
-                  <h1 class="text-display font-weight-bold py-1">
-                    <span class="counter">457</span>
-                  </h1>
-                  <h4 class="text-uppercase font-weight-bold">Class Minutes</h4>
-                </div>
 
-                <div class="col-md-6 col-lg-3">
-                  <span class="fa-stack fa-3x">
-                    <i class="fas fa-square fa-stack-2x"></i>
-                    <i class="fab fa-codepen fa-stack-1x fa-inverse"></i>
-                  </span>
-                  <h1 class="text-display font-weight-bold py-1">
-                    <span class="counter">199</span>
-                  </h1>
-                  <h4 class="text-uppercase font-weight-bold">Web Dev Files</h4>
-                </div>
+	<!-- Start Team Section -->
 
-                <div class="col-md-6 col-lg-3">
-                  <span class="fa-stack fa-3x">
-                    <i class="fas fa-square fa-stack-2x"></i>
-                    <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-                  </span>
-                  <h1 class="text-display font-weight-bold py-1">
-                    <span class="counter">365</span>
-                  </h1>
-                  <h4 class="text-uppercase font-weight-bold">24/7 Support</h4>
-                </div>
+	<!-- End Team Section -->
 
-                <div class="col-md-6 col-lg-3">
-                  <span class="fa-stack fa-3x">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i
-                      class="fas fa-cloud-download-alt fa-stack-1x fa-inverse"
-                    ></i>
-                  </span>
-                  <h1 class="text-display font-weight-bold py-1">
-                    <span class="counter">101</span>
-                  </h1>
-                  <h4 class="text-uppercase font-weight-bold">Resources</h4>
-                </div>
-              </div>
-              <!-- End Row -->
-            </div>
-            <!-- End Column -->
-          </div>
-          <!-- End Row Justify Content -->
 
-          <div
-            class="col-12 text-center os-animation"
-            data-animation="animate__animated animate__fadeInUp"
-          >
-            <p class="lead">
-              Want to learn more about our design and development skills?
-            </p>
-            <a href="#contact" class="btn btn-nuno btn-sm">Contact Us</a>
-          </div>
-        </div>
-        <!-- End Container -->
-      </div>
-      <!-- End Jumbotron -->
-    </div>
-    <!-- End of Skills Section -->
+	<!-- Start Skills Section -->
 
-    <!-- Start Clients Section -->
-    <div id="clients" class="offset">
-      <div class="row py-5 bg-light">
-        <div
-          class="col-12 os-animation"
-          data-animation="animate__animated animate__fadeInUp"
-        >
-          <h3 class="heading">Our Clients</h3>
-          <div class="heading-underline"></div>
-        </div>
+	<!-- End of Skills Section -->
 
-        <div
-          class="col-12 px-xl-5 os-animation"
-          data-animation="animate__animated animate__fadeInUp"
-        >
-          <div id="clients-carousel" class="owl-carousel owl-theme">
-            <div class="row clients px-3 px-md-4">
-              <div class="col-lg-4 my-auto">
-                <img src="https://via.placeholder.com/500x500" alt="" />
-              </div>
-              <div class="col-lg-8">
-                <blockquote class="text-justify">
-                  <i class="fas fa-quote-left"></i>
-                  I see Nuno support as more of a partner to my company than a
-                  resource. I can pick up the phone and talk to anyone at any
-                  time and the way that they interact with us as a business
-                  makes it really simple.
-                  <hr class="clients-hr" />
-                  <cite>&#8212; Eric, Small Business Owner</cite>
-                </blockquote>
-              </div>
-            </div>
 
-            <div class="row clients px-3 px-md-4">
-              <div class="col-lg-4 my-auto">
-                <img src="https://via.placeholder.com/500x500" alt="" />
-              </div>
-              <div class="col-lg-8">
-                <blockquote class="text-justify">
-                  <i class="fas fa-quote-left"></i>
-                  The great thing about Nuno is it's not just a design, it's a
-                  responsive Bootstrap theme with animation. Nuno's layout is
-                  seamless the smooth parallax scrolling and a pop-up portfolio
-                  section for my images.
-                  <hr class="clients-hr" />
-                  <cite>&#8212; Rachel, Professional Photographer</cite>
-                </blockquote>
-              </div>
-            </div>
+	<!-- Start Clients Section -->
 
-            <div class="row clients px-3 px-md-4">
-              <div class="col-lg-4 my-auto">
-                <img src="https://via.placeholder.com/500x500" alt="" />
-              </div>
-              <div class="col-lg-8">
-                <blockquote class="text-justify">
-                  <i class="fas fa-quote-left"></i>
-                  This theme is fantastic! It has all of the great website
-                  elements found throughout professional templates. I've learned
-                  a lot through developing and designing it while adding my own
-                  touches to the design.
-                  <hr class="clients-hr" />
-                  <cite>&#8212; Ricky, Aspiring Developer</cite>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <!-- End Carousel -->
-        </div>
-        <!-- End Column -->
-      </div>
-      <!-- End Row -->
-    </div>
-    <!-- End of Clients Section -->
+	<!-- End of Clients Section -->
 
-    <!-- Start Contact Section -->
-    <div id="contact" class="offset">
-      <div class="container-fluid footer px-0">
-        <div class="row outer">
-          <div class="container">
-            <div class="row py-3">
-              <div class="col-md-5 px-0 pr-md-3">
-                <img src="img/nuno.png" alt="" />
-                <p>
-                  At our core is a collection of design and development
-                  solutions that represent everything your business needs to
-                  compete in the modern marketplace.
-                </p>
-                <strong>Our Location</strong>
-                <p>100 Street Name<br />Our City, AA 10000</p>
-                <strong>Contact Info</strong>
-                <p>
-                  <a href="tel:18888888888">(888) 888-8888</a><br /><a
-                    href="mailto:email@nuno.com"
-                    >email@nuno.com</a
-                  >
-                </p>
-                <ul class="social pt-3">
-                  <li>
-                    <a href=""><i class="fab fa-facebook-square"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fab fa-youtube-square"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
-                  </li>
-                </ul>
-              </div>
-              <!-- End Column -->
 
-              <div class="col-md-7 px-0 pl-md-3">
-                <h3>Contact Us</h3>
+	<!-- Start Contact Section -->
 
-                <form
-                  action="contact/contact.php"
-                  method="POST"
-                  id="contact-form"
-                >
-                  <div class="messages"></div>
-                  <div class="controls">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        id="form_name"
-                        class="form-control"
-                        name="name"
-                        required="required"
-                        placeholder="Enter your name."
-                      />
-                    </div>
+	<!-- End Contact Section -->
 
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        id="form_email"
-                        class="form-control"
-                        name="email"
-                        required="required"
-                        placeholder="Enter your email."
-                      />
-                    </div>
 
-                    <div class="form-group">
-                      <textarea
-                        name="message"
-                        id="form_message"
-                        rows="4"
-                        class="form-control"
-                        required="required"
-                        placeholder="Add your message."
-                      ></textarea>
-                    </div>
+	<!-- Top Scroll -->
 
-                    <input
-                      type="submit"
-                      class="btn btn-outline-light btn-sm"
-                      value="Send Message"
-                    />
-                  </div>
-                  <!-- End Controls -->
-                </form>
-                <!-- End Form -->
-              </div>
-              <!-- End Row -->
-            </div>
-            <!-- End Row -->
-          </div>
-          <!-- End Container -->
+	<!-- End of Top Scroll -->
 
-          <hr class="socket" />
-          &copy; Nuno Theme.
-        </div>
-        <!-- End Row Outer -->
-      </div>
-      <!-- End Container Fluid -->
-    </div>
-    <!-- End Contact Section -->
 
-    <!-- Top Scroll -->
-    <a href="#home" class="top-scroll">
-      <i class="fa fa-angle-up"></i>
-    </a>
-    <!-- End of Top Scroll -->
+	<!-- Script Source Files -->
 
-    <!-- Script Source Files -->
-
-    <!-- jQuery https://code.jquery.com/ -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Bootstrap JS https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Plugins.js -->
-    <script src="js/plugins.js"></script>
-    <!-- Waypoints https://cdnjs.com/libraries/waypoints
+	<!-- jQuery https://code.jquery.com/ -->
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
+	<!-- Plugins.js -->
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
 		https://github.com/imakewebthings/waypoints -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.15.2/js/all.js -->
-    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
-    <!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-    <!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.13.1/js/all.js -->
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
 		http://owlcarousel2.github.io/OwlCarousel2/ -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
 		https://github.com/bfintal/Counter-Up2 -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
-    <!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
 
-    <!-- End of Script Source Files -->
-  </body>
+	<!-- End of Script Source Files -->
+
+</body>
 </html>

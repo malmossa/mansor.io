@@ -43,6 +43,12 @@ img {
   width: 100%;
 }
 
+/* Container */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 /* Button */
 .btn {
   cursor: pointer;
@@ -53,6 +59,28 @@ img {
   border: none;
   border-radius: 5px;
   transition: 0.7s;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+/* Bottom Line */
+.bottom-line {
+  height: 2px;
+  width: 4rem;
+  background: var(--primary);
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* Paragraph Styling */
+.lead {
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 .btn:hover {
@@ -154,4 +182,26 @@ img {
 /* Getting the content infront of the overlay */
 .hero * {
   z-index: 10;
+}
+
+/* === ABOUT SECTION === */
+.about-info {
+  display: flex;
+  background-color: #e6e6e6;
+}
+
+.bio-img {
+  max-width: 300px;
+}
+
+.bio-info {
+  text-align: left;
+  padding-left: 20px;
+  border-left: 3px solid var(--primary);
+}
+
+.bio-info h4 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
 }

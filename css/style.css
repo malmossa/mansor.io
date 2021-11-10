@@ -187,7 +187,6 @@ img {
 /* === ABOUT SECTION === */
 .about-info {
   display: flex;
-  background-color: #e6e6e6;
 }
 
 .bio-img {
@@ -197,7 +196,9 @@ img {
 .bio-info {
   text-align: left;
   padding-left: 20px;
+  margin-left: 10px;
   border-left: 3px solid var(--primary);
+  background-color: #e6e6e6;
 }
 
 .bio-info h4 {

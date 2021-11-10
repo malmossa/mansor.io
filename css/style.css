@@ -79,7 +79,7 @@ img {
 
 /* Paragraph Styling */
 .lead {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
@@ -205,4 +205,23 @@ img {
   margin-top: 20px;
   text-align: center;
   font-size: 1.5rem;
+}
+
+/* === PORTFOLIO === */
+#portfolio .lead {
+  text-align: center;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.item-text-category {
+  text-align: center;
+}
+
+.item-text-title {
+  text-align: center;
 }

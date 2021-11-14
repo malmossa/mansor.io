@@ -190,7 +190,9 @@ img {
 }
 
 .bio-img {
-  max-width: 300px;
+  width: 20rem;
+  height: 21rem;
+  object-fit: cover;
 }
 
 .bio-info {
@@ -310,4 +312,30 @@ img {
   font-size: 2rem;
   padding: 0 1rem;
   margin: 5px 0 0 0;
+}
+
+/* === FOOTER === */
+.footer {
+  background: #333;
+  color: #fff;
+  height: 4rem;
+}
+
+.footer .footer-content-container {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+}
+
+.footer .footer-content-container p {
+  margin-left: 1rem;
+}
+
+.footer .footer-content-container .social .fab {
+  margin-right: 1rem;
+}
+
+.footer .footer-content-container .social .fab:hover {
+  color: var(--primary);
 }
